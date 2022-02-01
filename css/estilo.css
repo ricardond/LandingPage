@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Sarala&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body{
+	background-color: #D8D8D8;
+}
+
+.cabecalho{
+	display: flex;
+	width: 100%;
+	height: 90px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.cabecalho_menu{
+	display: flex;
+	gap: 32px;
+}
+
+.cabecalho_menu_item{
+	font-family: 'Sarala', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+
+.conteudo{
+	border-top: 1px solid #D8D8D8;
+	display: flex;
+	flex-direction: column;
+}
+
+.conteudo_principal{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 400px;
+	gap: 100px;
+	background-image: url(../img/barba.jpg);
+}
+
+.conteudo_principal_texto{
+	color: white;
+	width: 300px;
+	font-size: 20px;
+	border-bottom: 1px solid white;
+}
+
+section{
+	margin-bottom: 10px;
+}
+
+.conteudo2_principal{
+	padding-top: 20px;
+}
+
+h2{
+	font-family: 'Imperial', sans-serif;
+	text-align: center;
+}
+
+.conteudo2_principal_img{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 70px;
+	padding-top: 10px;
+}
+
+.conteudo2_principal img{
+	max-width: 200px;
+	border-radius: 25px;
+	background-color: #9D372D;
+	padding: 10px;
+}
+
+.conteudo2_principal img:hover{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.conteudo3{
+	background-image: url(../img/Banner.png);
+	text-align: center;
+}
+.conteudo3_principal{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.conteudo3_principal img{
+	width: 350px;
+}
+
+.conteudo3_principal h3{
+	text-align: center;
+	color: #E2A400;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+.formulario{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.formulario_texto{
+	width: 300px;
+	font-size: 20px;
+	font-family: 'Sarala', sans-serif;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	height: 200px;
+	background-image: url(../img/Banner2.png);
+	color: #E2A400;
+}
+
+.footer img{
+	width: 40px;
+}
+
+.footer a{
+	color: white;
+}
+
+.footerConteudo1_item{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.footerConteudo1_2tem{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
