@@ -12,6 +12,18 @@
 	padding: 10px;
 }
 
+.form input:focus{
+	background-color: #748DFD;
+	outline: none;
+	color: aliceblue;
+}
+
+.form textarea:focus{
+	background-color: #748DFD;
+	outline: none;
+	color: aliceblue;
+}
+
 .form label{
 	font-size: 18px;
 	font-family: 'monospace', sans-serif;
