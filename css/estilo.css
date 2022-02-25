@@ -55,6 +55,7 @@ body{
 .conteudo_principal_texto{
 	color: white;
 	width: 300px;
+	margin-left: 5px;
 	font-size: 20px;
 	border-bottom: 1px solid white;
 }
@@ -126,12 +127,6 @@ h2{
 	margin-top: 20px;
 }
 
-.formulario_texto{
-	width: 300px;
-	font-size: 20px;
-	font-family: 'Sarala', sans-serif;
-}
-
 .footer{
 	display: flex;
 	justify-content: space-evenly;
@@ -175,7 +170,7 @@ h2{
 	}
 
 	.conteudo2_principal img{
-		width: 300px;
+		width: 200px;
 	}
 
 	.cabecalho{
